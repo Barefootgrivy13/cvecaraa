@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <title>Цвећара</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff69b4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffc0cb;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #800000;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px 0;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Цвећара</h1>
+    <p>Свежe цвеће за сваку прилику</p>
+  </header>
+
+  <nav>
+    <a href="#">Почетна</a>
+    <a href="#">Каталог</a>
+    <a href="#">Испорука</a>
+    <a href="#">Контакт</a>
+  </nav>
+
+  <main>
+    <h2>Наши популарни букети</h2>
+
+    <div class="product">
+      <img src="https://cdn.pixabay.com/photo/2020/05/09/09/51/flowers-5147878_960_720.jpg" alt="Букет Пролеће">
+      <h3>Букет "Пролеће"</h3>
+      <p>Розе, тулипани и беле раде — за веселе емоције!</p>
+      <p><strong>Цена:</strong> 2500 дин.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn.pixabay.com/photo/2016/11/22/07/09/roses-1845076_960_720.jpg" alt="Букет Љубав">
+      <h3>Букет "Љубав"</h3>
+      <p>Црвене руже — класика романтике.</p>
+      <p><strong>Цена:</strong> 3000 дин.</p>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn.pixabay.com/photo/2020/05/20/09/02/flowers-5194299_960_720.jpg" alt="Букет Осмех">
+      <h3>Букет "Осмех"</h3>
+      <p>Шарене гербере за добро расположење.</p>
+      <p><strong>Цена:</strong> 2200 дин.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Цвећара. Сва права задржана.</p>
+  </footer>
+
+</body>
+</html>
